@@ -1,0 +1,48 @@
+/*---document objects general----*/
+
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+    font-size: 1.11em;
+}
+
+input{
+    width: 120px;
+    margin-bottom: 5px;
+}
+
+button{
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+/*----contents inner body---*/
+.block-content{
+    display: block;
+}
+
+.inner-p-question{
+    display: inline-flex;
+    width: 1100px;
+}
+
+.click-button{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.outer-block-input{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.answer{
+    color: white;
+    display: flex;
+    justify-content: space-around
+}

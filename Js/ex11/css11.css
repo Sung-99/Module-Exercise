@@ -1,0 +1,46 @@
+/*general document object html*/
+
+body{
+
+    background-color: black;
+}
+
+
+p{
+    color: white;
+    font-size: 20px;
+
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+/*aside document object html created by dev*/
+
+.question-inner-div-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.clipborder-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.string-paragraph{
+    display: flex;
+    justify-content: space-around;
+}
+
+.background-question{
+    border-style: solid;
+    border-color: wheat;
+    border-width: 1px;
+    padding: 5px;
+}
+.btn-class{
+    display: flex;
+    justify-content: space-around;
+}

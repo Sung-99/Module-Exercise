@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+}
+button{
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+}
+input{
+    width: 300px;
+    text-align: center;
+}
+
+/*block style to my question*/
+.block-Style{
+    display: block;
+}
+
+/*most outer flex content to my page*/
+.most-outer-content{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    gap:2rem 0rem;
+}
+
+/*inner contets*/
+.answer{ 
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+.calculate-div-block{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}

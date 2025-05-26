@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+
+.Answer{
+        color: white;
+        text-align: center;
+}
+
+.outer_quest{
+    padding: 100px;
+    margin: 100px;
+    width: 100%;
+}

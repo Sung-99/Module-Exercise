@@ -1,0 +1,24 @@
+/*all inners html elements*/
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+    font-size: 32.5px;
+}
+
+button{
+    width: 100px;
+    cursor: pointer;
+}
+
+/*all created elements*/
+.block-ext{
+    display: block;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+} 
