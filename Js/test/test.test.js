@@ -1,5 +1,6 @@
 const Test = require('@codewars/test-compat');
-import { maskify } from '../ex21/maskify.ts';
+const maskify = require('../ex21/maskify.js');
+
 
 describe("maskify", function(){
   it("should work for some examples", function(){
@@ -8,3 +9,4 @@ describe("maskify", function(){
     Test.assertEquals(maskify('11111'), '#1111');
   });
 });
+

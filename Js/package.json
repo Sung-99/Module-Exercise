@@ -4,8 +4,9 @@
   "description": "<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->\r <a name=\"readme-top\"></a>",
   "main": "",
   "type": "module",
-  "scripts": 
-    {"test" : "mocha"},
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sung-99/Js-Exercises.git"
@@ -20,12 +21,12 @@
     "@types/jest": "^29.5.14",
     "@types/mocha": "^10.0.10",
     "@types/node": "^22.15.21",
+    "chai": "^5.2.0",
     "mocha": "^11.5.0",
     "mocha-junit-reporter": "^2.2.1"
   },
   "dependencies": {
     "@codewars/test-compat": "^1.1.0",
-    "chai": "^5.2.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
