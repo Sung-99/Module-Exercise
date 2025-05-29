@@ -1,3 +1,6 @@
+
+
+
 /*---------------------This were my ex21-------------------------*/
 
 /*---------------------------------------
@@ -14,3 +17,23 @@ describe("maskify", function(){
 });
 ------------------------------------------*/
 /*----------------------------------------------------------------*/
+
+/*---------------------This were my ex22-------------------------*/
+
+/*---------------------------------------*/
+const chai = require("chai");
+const isValidWalk = require('../ex22/ex22.js');
+const assert = chai.assert;
+chai.config.truncateThreshold=0;
+/*
+describe("Tests", () => {
+  it("test", () => {
+    some test cases for you...
+    assert.isTrue(isValidWalk(['n','s','n','s','n','s','n','s','n','s']), 'should return true');
+    assert.isFalse(isValidWalk(['w','e','w','e','w','e','w','e','w','e','w','e']), 'should return false');
+    assert.isFalse(isValidWalk(['w']), 'should return false');
+    assert.isFalse(isValidWalk(['n','n','n','s','n','s','n','s','n','s']), 'should return false');
+
+  });
+});*/
+ console.log(isValidWalk(['n','s','n','s','n','s','n','s','n','s']));

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Sung-99/Js-Exercises#readme",
   "devDependencies": {
+    "@types/chai": "^5.2.2",
     "@types/jest": "^29.5.14",
     "@types/mocha": "^10.0.10",
     "@types/node": "^22.15.21",

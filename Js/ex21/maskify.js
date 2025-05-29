@@ -4,5 +4,3 @@ function maskify(c) {
     const limitIndex = c.length - unchangedCount; // Calculate the limit
     return c.split('').map((char, index) => index < limitIndex ? '#' : char).join('');
 }
-
-module.exports = maskify;
