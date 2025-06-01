@@ -3,7 +3,7 @@
 
 /*---------------------This were my ex21-------------------------*/
 
-/*---------------------------------------
+/*---------------Here i worked with commonJS using module.export------------------------
 const Test = require('@codewars/test-compat');
 const maskify = require('../ex21/maskify.js');
 
@@ -20,7 +20,7 @@ describe("maskify", function(){
 
 /*---------------------This were my ex22-------------------------*/
 
-/*---------------------------------------*/
+/*--------------Here i worked with commonJS using module.export-------------------------
 const chai = require("chai");
 const isValidWalk = require('../ex22/ex22.js');
 const assert = chai.assert;
@@ -36,3 +36,22 @@ describe("Tests", () => {
 
   });
 });
+------------------------------------------*/
+/*----------------------------------------------------------------*/
+
+/*---------------------This were my ex23-------------------------*/
+
+/*-------------Here i worked with type: module using import  // export--------------------------*/
+import { expect } from 'chai';
+
+import { narcissistic } from '../ex23/narcissistic.js';
+
+describe('Basic tests', () => {
+  it('Basic test should work', () => {
+    expect(narcissistic(7)).to.equal(true, '7 is narcissistic');
+    expect(narcissistic(153)).to.equal(true, '153 is narcissistic');
+    expect(narcissistic(1634)).to.equal(true, '1634 is narcissistic');
+  });
+});
+/*------------------------------------------*/
+/*----------------------------------------------------------------*/

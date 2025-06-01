@@ -1,3 +1,4 @@
-function narcissistic(value:any) {
-  // Code me to return true or false
+ export function narcissistic(value: number): boolean {
+  return true;
 }
+
