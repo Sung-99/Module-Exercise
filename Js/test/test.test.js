@@ -41,7 +41,7 @@ describe("Tests", () => {
 
 /*---------------------This were my ex23-------------------------*/
 
-/*-------------Here i worked with type: module using import  // export--------------------------*/
+/*-------------Here i worked with type: module using import  // export-------------------------
 import { expect } from 'chai';
 
 import { narcissistic } from '../ex23/narcissistic.js';
@@ -51,6 +51,22 @@ describe('Basic tests', () => {
     expect(narcissistic(7)).to.equal(true, '7 is narcissistic');
     expect(narcissistic(153)).to.equal(true, '153 is narcissistic');
     expect(narcissistic(1634)).to.equal(true, '1634 is narcissistic');
+  });
+});
+------------------------------------------*/
+/*----------------------------------------------------------------*/
+
+/*---------------------This were my ex23-------------------------*/
+
+/*-------------Here i worked with type: module using import  // export-------------------------*/
+import { assert } from "chai";
+
+import { isPangram } from "../ex24";
+
+describe("example", function() {
+  it("test", function() {
+    assert.strictEqual(isPangram("The quick brown fox jumps over the lazy dog."), true);
+    assert.strictEqual(isPangram("This is not a pangram."), false);
   });
 });
 /*------------------------------------------*/
