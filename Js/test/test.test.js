@@ -56,12 +56,12 @@ describe('Basic tests', () => {
 ------------------------------------------*/
 /*----------------------------------------------------------------*/
 
-/*---------------------This were my ex23-------------------------*/
+/*---------------------This were my ex24-------------------------*/
 
-/*-------------Here i worked with type: module using import  // export-------------------------*/
+/*-------------Here i worked with type: module using import  // export-------------------------
 import { assert } from "chai";
 
-import { isPangram } from "../ex24";
+import { isPangram } from "../ex24/isPangram.js";
 
 describe("example", function() {
   it("test", function() {
@@ -69,5 +69,26 @@ describe("example", function() {
     assert.strictEqual(isPangram("This is not a pangram."), false);
   });
 });
-/*------------------------------------------*/
+------------------------------------------*/
+/*----------------------------------------------------------------*/
+
+/*---------------------This were my ex25-------------------------*/
+
+/*-------------Here i worked with type: module using import  // export-------------------------
+// See https://www.chaijs.com for how to use Chai.
+import { assert } from "chai";
+
+import { duplicateCount } from "../ex25/duplicateCount.js";
+
+describe("example", function() {
+  it("test", function() {
+    assert.equal(duplicateCount(""), 0);
+    assert.equal(duplicateCount("abcde"), 0);
+    assert.equal(duplicateCount("aabbcde"), 2);
+    assert.equal(duplicateCount("aabBcde"), 2,"should ignore case");
+    assert.equal(duplicateCount("Indivisibility"), 1)
+    assert.equal(duplicateCount("Indivisibilities"), 2, "characters may not be adjacent")
+  });
+});
+------------------------------------------*/
 /*----------------------------------------------------------------*/
