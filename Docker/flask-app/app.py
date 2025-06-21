@@ -1,3 +1,5 @@
+from elasticsearch import Elasticsearch, exceptions
+
 from flask import Flask, render_template
 import os
 import random
